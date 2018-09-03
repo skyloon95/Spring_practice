@@ -1,0 +1,5 @@
+03-Sep-2018 12:41:37.807 정보 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Sep-2018 12:41:39.412 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Sep-2018 12:41:52.891 정보 [tomcat-http--4] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcherServlet'
+03-Sep-2018 12:42:02.413 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+03-Sep-2018 12:42:02.416 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

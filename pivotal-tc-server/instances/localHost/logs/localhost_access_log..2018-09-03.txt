@@ -1,0 +1,7 @@
+127.0.0.1 - - [03/Sep/2018:12:41:44 +0900] "GET / HTTP/1.1" 200 2712
+127.0.0.1 - - [03/Sep/2018:12:41:46 +0900] "GET /mybatis1/index.jsp HTTP/1.1" 200 206
+127.0.0.1 - - [03/Sep/2018:12:41:53 +0900] "GET /mybatis1/student/list HTTP/1.1" 200 32624
+127.0.0.1 - - [03/Sep/2018:12:41:53 +0900] "GET /mybatis1/res/common.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Sep/2018:12:41:53 +0900] "GET /mybatis1/res/common.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Sep/2018:12:41:55 +0900] "GET /mybatis1/student/edit?id=4 HTTP/1.1" 200 2064
+127.0.0.1 - - [03/Sep/2018:12:41:57 +0900] "GET /mybatis1/student/create HTTP/1.1" 200 1875

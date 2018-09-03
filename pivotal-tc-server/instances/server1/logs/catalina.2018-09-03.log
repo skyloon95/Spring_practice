@@ -1,0 +1,633 @@
+03-Sep-2018 09:32:56.785 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:32:56.787 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:32:57.151 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 369 ms
+03-Sep-2018 09:32:57.498 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:32:57.519 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:32:57.647 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 113 ms
+03-Sep-2018 09:32:57.661 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:32:57.661 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:32:57.667 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:32:57.684 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:32:57.695 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:33:00.280 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:33:03.796 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,128] ms
+03-Sep-2018 09:33:03.796 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:33:05.189 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:33:05.192 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,396] ms
+03-Sep-2018 09:33:05.192 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:33:06.535 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:33:06.537 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,344] ms
+03-Sep-2018 09:33:06.547 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:39:03.351 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:39:03.405 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:39:03.423 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:39:03.424 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:39:03.432 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:39:03.438 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:39:09.257 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:39:09.260 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:39:09.532 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 277 ms
+03-Sep-2018 09:39:09.838 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:39:09.859 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:39:09.975 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 98 ms
+03-Sep-2018 09:39:09.988 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:39:09.988 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:39:09.995 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:39:10.009 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:39:10.019 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:39:12.548 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:39:16.280 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,284] ms
+03-Sep-2018 09:39:16.281 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:39:17.671 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:39:17.674 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,393] ms
+03-Sep-2018 09:39:17.674 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:39:18.869 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:39:18.870 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,196] ms
+03-Sep-2018 09:39:18.876 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:40:35.593 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:40:35.649 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:40:36.165 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:40:36.166 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:40:36.172 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:40:36.174 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:40:39.393 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:40:39.395 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:40:39.653 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 262 ms
+03-Sep-2018 09:40:39.999 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:40:40.022 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:40:40.120 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 83 ms
+03-Sep-2018 09:40:40.134 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:40:40.134 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:40:40.139 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:40:40.153 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:40:40.162 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:40:42.661 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:40:46.176 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,036] ms
+03-Sep-2018 09:40:46.176 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:40:47.600 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:40:47.604 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,428] ms
+03-Sep-2018 09:40:47.604 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:40:48.950 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:40:48.951 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,347] ms
+03-Sep-2018 09:40:48.958 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:43:06.481 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:43:06.538 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:43:06.555 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:43:06.555 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:43:06.563 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:43:06.568 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:43:11.390 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:43:11.392 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:43:11.662 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 274 ms
+03-Sep-2018 09:43:11.953 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:43:11.972 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:43:12.076 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 89 ms
+03-Sep-2018 09:43:12.089 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:43:12.090 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:43:12.094 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:43:12.107 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:43:12.115 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:43:14.571 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:43:18.289 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,194] ms
+03-Sep-2018 09:43:18.290 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:43:19.666 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:43:19.669 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,379] ms
+03-Sep-2018 09:43:19.669 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:43:20.985 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:43:20.986 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,317] ms
+03-Sep-2018 09:43:20.993 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:48:12.037 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:48:12.091 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:48:12.107 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:48:12.108 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:48:12.116 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:48:12.120 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:48:29.012 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:48:29.014 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:48:29.280 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 270 ms
+03-Sep-2018 09:48:29.579 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:48:29.599 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:48:29.702 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 89 ms
+03-Sep-2018 09:48:29.715 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:48:29.716 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:48:29.723 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:48:29.737 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:48:29.746 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:48:32.202 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:48:35.824 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,102] ms
+03-Sep-2018 09:48:35.825 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:48:37.184 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:48:37.187 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,362] ms
+03-Sep-2018 09:48:37.188 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:48:38.508 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:48:38.509 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,322] ms
+03-Sep-2018 09:48:38.516 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:52:25.337 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:52:25.338 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:52:25.365 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:52:25.366 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:52:25.375 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:52:25.382 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:53:15.488 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:53:15.490 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:53:15.801 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 315 ms
+03-Sep-2018 09:53:16.123 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:53:16.142 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:53:16.246 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 90 ms
+03-Sep-2018 09:53:16.259 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:53:16.259 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:53:16.266 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:53:16.279 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:53:16.287 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:53:18.733 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:53:22.055 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [5,788] ms
+03-Sep-2018 09:53:22.056 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:53:23.383 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:53:23.385 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,330] ms
+03-Sep-2018 09:53:23.385 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:53:24.567 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:53:24.568 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,183] ms
+03-Sep-2018 09:53:24.575 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:54:22.072 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:54:22.128 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:54:22.144 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:54:22.144 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:54:22.153 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:54:22.157 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:54:22.163 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:22.163 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 09:54:50.201 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:54:50.203 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:54:50.454 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 256 ms
+03-Sep-2018 09:54:50.747 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:54:50.766 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:54:50.865 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 85 ms
+03-Sep-2018 09:54:50.876 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:54:50.876 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:54:50.882 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:54:50.894 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:54:50.901 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:54:53.299 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:54:56.935 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [6,052] ms
+03-Sep-2018 09:54:56.936 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:54:58.327 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:54:58.329 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,393] ms
+03-Sep-2018 09:54:58.329 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:54:59.520 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:54:59.521 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,192] ms
+03-Sep-2018 09:54:59.528 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:58:15.886 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:58:15.941 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 09:58:15.958 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 09:58:15.959 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 09:58:15.967 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:58:15.970 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:58:23.587 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 09:58:23.589 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 09:58:23.819 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 234 ms
+03-Sep-2018 09:58:24.111 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 09:58:24.129 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 09:58:24.225 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 82 ms
+03-Sep-2018 09:58:24.235 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 09:58:24.235 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 09:58:24.240 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 09:58:24.251 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 09:58:24.259 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 09:58:26.661 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:58:30.063 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [5,822] ms
+03-Sep-2018 09:58:30.063 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 09:58:31.497 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:58:31.500 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,437] ms
+03-Sep-2018 09:58:31.500 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 09:58:32.780 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 09:58:32.781 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,281] ms
+03-Sep-2018 09:58:32.787 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:07:41.980 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:07:42.037 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 10:07:42.053 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 10:07:42.053 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 10:07:42.061 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:07:42.066 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:07:56.118 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 10:07:56.120 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 10:07:56.394 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 277 ms
+03-Sep-2018 10:07:56.698 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:07:56.717 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 10:07:56.822 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 89 ms
+03-Sep-2018 10:07:56.835 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 10:07:56.835 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 10:07:56.841 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 10:07:56.855 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 10:07:56.864 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 10:07:59.317 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:02.711 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [5,869] ms
+03-Sep-2018 10:08:02.712 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 10:08:04.095 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:04.098 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,386] ms
+03-Sep-2018 10:08:04.098 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 10:08:05.394 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:05.395 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,297] ms
+03-Sep-2018 10:08:05.402 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:08:14.367 정보 [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:08:14.420 정보 [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 10:08:14.442 경고 [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 10:08:14.443 경고 [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 10:08:14.453 정보 [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:08:14.460 정보 [Thread-6] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardService[Catalina]] after stop() had already been called. The second call will be ignored.
+03-Sep-2018 10:08:14.461 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:08:15.241 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 10:08:15.244 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 10:08:15.485 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 246 ms
+03-Sep-2018 10:08:15.778 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:08:15.797 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 10:08:15.896 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 84 ms
+03-Sep-2018 10:08:15.907 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 10:08:15.907 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 10:08:15.914 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 10:08:15.927 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 10:08:15.934 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 10:08:18.344 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:21.620 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [5,705] ms
+03-Sep-2018 10:08:21.620 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 10:08:22.996 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:23.001 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,381] ms
+03-Sep-2018 10:08:23.002 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 10:08:24.261 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:08:24.262 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,261] ms
+03-Sep-2018 10:08:24.268 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:09:08.383 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:09:08.435 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 10:09:08.656 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 10:09:08.656 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 10:09:08.663 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:09:08.669 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.669 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.670 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.670 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:09:08.672 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:09:09.916 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 10:09:09.918 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 10:09:10.157 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 243 ms
+03-Sep-2018 10:09:10.451 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:09:10.470 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 10:09:10.571 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 86 ms
+03-Sep-2018 10:09:10.583 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 10:09:10.583 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 10:09:10.589 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 10:09:10.600 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 10:09:10.607 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 10:09:13.009 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:09:16.497 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/conf/Catalina/localhost/mybatis1.xml] has finished in [5,907] ms
+03-Sep-2018 10:09:16.498 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager]
+03-Sep-2018 10:09:17.904 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:09:17.907 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/manager] has finished in [1,409] ms
+03-Sep-2018 10:09:17.907 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT]
+03-Sep-2018 10:09:19.183 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 10:09:19.184 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/jsp2/pivotal-tc-server/instances/server1/webapps/ROOT] has finished in [1,277] ms
+03-Sep-2018 10:09:19.191 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:10:32.506 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:10:32.559 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 10:10:32.574 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 10:10:32.575 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 10:10:32.587 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:10:32.599 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.599 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.599 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.599 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.600 정보 [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.601 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.601 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.601 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 10:10:32.603 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.603 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03-Sep-2018 10:10:32.603 정보 [24] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

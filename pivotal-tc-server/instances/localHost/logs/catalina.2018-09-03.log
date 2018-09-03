@@ -1,0 +1,32 @@
+03-Sep-2018 12:41:34.492 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+03-Sep-2018 12:41:34.494 정보 [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+03-Sep-2018 12:41:34.754 정보 [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 264 ms
+03-Sep-2018 12:41:35.095 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 12:41:35.115 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Sep-2018 12:41:35.220 정보 [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 87 ms
+03-Sep-2018 12:41:35.234 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2018 12:41:35.234 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 9.0.7.B.RELEASE
+03-Sep-2018 12:41:35.239 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/conf/Catalina/localhost/mybatis1.xml]
+03-Sep-2018 12:41:35.255 경고 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mybatis1] in deployment descriptor [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/conf/Catalina/localhost/mybatis1.xml] has been ignored
+03-Sep-2018 12:41:35.266 경고 [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:mybatis1' did not find a matching property.
+03-Sep-2018 12:41:37.749 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 12:41:41.182 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/conf/Catalina/localhost/mybatis1.xml] has finished in [5,942] ms
+03-Sep-2018 12:41:41.183 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/webapps/manager]
+03-Sep-2018 12:41:42.709 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 12:41:42.713 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/webapps/manager] has finished in [1,530] ms
+03-Sep-2018 12:41:42.714 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/webapps/ROOT]
+03-Sep-2018 12:41:43.917 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2018 12:41:43.918 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/moseol-a/Git/Spring_practice/pivotal-tc-server/instances/localHost/webapps/ROOT] has finished in [1,205] ms
+03-Sep-2018 12:41:43.926 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 12:42:02.348 정보 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 12:42:02.403 정보 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2018 12:42:02.418 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mybatis1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2018 12:42:02.418 경고 [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mybatis1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+03-Sep-2018 12:42:02.427 정보 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2018 12:42:02.431 정보 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
