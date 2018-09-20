@@ -43,7 +43,7 @@
         <a href="delete.do?id=${ student.id }" class="btn btn-danger" data-confirm-delete>
           <i class="glyphicon glyphicon-remove"></i> 삭제</a>
       </c:if>
-      <a href="list.do" class="btn btn-info">목록으로</a>
+      <a href="list" class="btn btn-info">목록으로</a>
     </div>
   </form:form>
 </div>
